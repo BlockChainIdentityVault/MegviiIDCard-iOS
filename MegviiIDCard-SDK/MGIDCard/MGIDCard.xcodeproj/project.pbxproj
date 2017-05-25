@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0951AFCD1ED6C02400E3C247 /* megviiidcard_0_3_0_model in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0951AFCC1ED6C01F00E3C247 /* megviiidcard_0_3_0_model */; };
+		1444D1311ED2CC8300345ED3 /* libMegviiIDCard-0.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1444D1301ED2CC8300345ED3 /* libMegviiIDCard-0.3.0.a */; };
+		1494B9F81D800A1800E00B70 /* MGIDCard.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1494B9F71D800A1800E00B70 /* MGIDCard.h */; };
+		1494B9FA1D800A1900E00B70 /* MGIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494B9F91D800A1800E00B70 /* MGIDCard.m */; };
+		1494BA0F1D8111B100E00B70 /* MGIDCardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1494BA0E1D8111B100E00B70 /* MGIDCardInfo.m */; };
+		1494BA3B1D813F7800E00B70 /* MGIDCardInfo.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1494BA0D1D8111B100E00B70 /* MGIDCardInfo.h */; };
+		1494BA3C1D813F7B00E00B70 /* MGIDCardCommon.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 1494BA101D81136800E00B70 /* MGIDCardCommon.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1494B9F21D800A1800E00B70 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1494BA3C1D813F7B00E00B70 /* MGIDCardCommon.h in Copy Files */,
+				1494BA3B1D813F7800E00B70 /* MGIDCardInfo.h in Copy Files */,
+				1494B9F81D800A1800E00B70 /* MGIDCard.h in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1494BA071D81091000E00B70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = model;
+			dstSubfolderSpec = 7;
+			files = (
+				0951AFCD1ED6C02400E3C247 /* megviiidcard_0_3_0_model in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0951AFCC1ED6C01F00E3C247 /* megviiidcard_0_3_0_model */ = {isa = PBXFileReference; lastKnownFileType = file; path = megviiidcard_0_3_0_model; sourceTree = "<group>"; };
+		1444D1301ED2CC8300345ED3 /* libMegviiIDCard-0.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMegviiIDCard-0.3.0.a"; sourceTree = "<group>"; };
+		1494B9F41D800A1800E00B70 /* libMGIDCard-0.3.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMGIDCard-0.3.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1494B9F71D800A1800E00B70 /* MGIDCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGIDCard.h; sourceTree = "<group>"; };
+		1494B9F91D800A1800E00B70 /* MGIDCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGIDCard.m; sourceTree = "<group>"; };
+		1494BA021D8108FD00E00B70 /* MG_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MG_Common.h; sourceTree = "<group>"; };
+		1494BA031D8108FD00E00B70 /* MG_IDCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MG_IDCard.h; sourceTree = "<group>"; };
+		1494BA0D1D8111B100E00B70 /* MGIDCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGIDCardInfo.h; sourceTree = "<group>"; };
+		1494BA0E1D8111B100E00B70 /* MGIDCardInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGIDCardInfo.m; sourceTree = "<group>"; };
+		1494BA101D81136800E00B70 /* MGIDCardCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGIDCardCommon.h; sourceTree = "<group>"; };
+		1494BA111D81333300E00B70 /* MGIDCardInfo_Creat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGIDCardInfo_Creat.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1494B9F11D800A1800E00B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1444D1311ED2CC8300345ED3 /* libMegviiIDCard-0.3.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1494B9EB1D800A1800E00B70 = {
+			isa = PBXGroup;
+			children = (
+				1494BA051D81090600E00B70 /* Sources */,
+				1494BA001D8108FD00E00B70 /* IDCardSDK */,
+				1494B9F61D800A1800E00B70 /* MGIDCard */,
+				1494B9F51D800A1800E00B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1494B9F51D800A1800E00B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1494B9F41D800A1800E00B70 /* libMGIDCard-0.3.0.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1494B9F61D800A1800E00B70 /* MGIDCard */ = {
+			isa = PBXGroup;
+			children = (
+				1494B9F71D800A1800E00B70 /* MGIDCard.h */,
+				1494B9F91D800A1800E00B70 /* MGIDCard.m */,
+				1494BA0D1D8111B100E00B70 /* MGIDCardInfo.h */,
+				1494BA0E1D8111B100E00B70 /* MGIDCardInfo.m */,
+				1494BA101D81136800E00B70 /* MGIDCardCommon.h */,
+				1494BA111D81333300E00B70 /* MGIDCardInfo_Creat.h */,
+			);
+			path = MGIDCard;
+			sourceTree = "<group>";
+		};
+		1494BA001D8108FD00E00B70 /* IDCardSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1444D1301ED2CC8300345ED3 /* libMegviiIDCard-0.3.0.a */,
+				1494BA021D8108FD00E00B70 /* MG_Common.h */,
+				1494BA031D8108FD00E00B70 /* MG_IDCard.h */,
+			);
+			path = IDCardSDK;
+			sourceTree = "<group>";
+		};
+		1494BA051D81090600E00B70 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0951AFCC1ED6C01F00E3C247 /* megviiidcard_0_3_0_model */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1494B9F31D800A1800E00B70 /* MGIDCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1494B9FD1D800A1900E00B70 /* Build configuration list for PBXNativeTarget "MGIDCard" */;
+			buildPhases = (
+				1494B9F01D800A1800E00B70 /* Sources */,
+				1494B9F11D800A1800E00B70 /* Frameworks */,
+				1494B9F21D800A1800E00B70 /* Copy Files */,
+				1494BA071D81091000E00B70 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGIDCard;
+			productName = MGIDCard;
+			productReference = 1494B9F41D800A1800E00B70 /* libMGIDCard-0.3.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1494B9EC1D800A1800E00B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = megvii;
+				TargetAttributes = {
+					1494B9F31D800A1800E00B70 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 1494B9EF1D800A1800E00B70 /* Build configuration list for PBXProject "MGIDCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1494B9EB1D800A1800E00B70;
+			productRefGroup = 1494B9F51D800A1800E00B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1494B9F31D800A1800E00B70 /* MGIDCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1494B9F01D800A1800E00B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1494BA0F1D8111B100E00B70 /* MGIDCardInfo.m in Sources */,
+				1494B9FA1D800A1900E00B70 /* MGIDCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1494B9FB1D800A1900E00B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1494B9FC1D800A1900E00B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1494B9FE1D800A1900E00B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_CURRENT_VERSION = "${CURRENT_PROJECT_VERSION}";
+				ENABLE_BITCODE = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCardSDK",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME)-${CURRENT_PROJECT_VERSION}";
+				PRODUCT_NAME = "$(TARGET_NAME)-${CURRENT_PROJECT_VERSION}";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = debugging;
+			};
+			name = Debug;
+		};
+		1494B9FF1D800A1900E00B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DYLIB_CURRENT_VERSION = "${CURRENT_PROJECT_VERSION}";
+				ENABLE_BITCODE = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCardSDK",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME)-${CURRENT_PROJECT_VERSION}";
+				PRODUCT_NAME = "$(TARGET_NAME)-${CURRENT_PROJECT_VERSION}";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = debugging;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1494B9EF1D800A1800E00B70 /* Build configuration list for PBXProject "MGIDCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1494B9FB1D800A1900E00B70 /* Debug */,
+				1494B9FC1D800A1900E00B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1494B9FD1D800A1900E00B70 /* Build configuration list for PBXNativeTarget "MGIDCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1494B9FE1D800A1900E00B70 /* Debug */,
+				1494B9FF1D800A1900E00B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1494B9EC1D800A1800E00B70 /* Project object */;
+}
