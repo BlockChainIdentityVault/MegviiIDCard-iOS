@@ -64,6 +64,8 @@ iOSInjectionProject/
 
 
 # model .a
-
 megviiidcard*model
 *.a
+
+# net account
+MGNetAccount.h
