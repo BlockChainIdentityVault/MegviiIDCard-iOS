@@ -14,8 +14,7 @@
 #define MG_LICENSE_API_KEY @"xxx"
 #define MG_LICENSE_API_SECRET @"xxx"
 
-#define MG_LICENSE_API_TYPE @"IDCard"
-#define MG_LICENSE_API_DURATION @"1"
+
 
 
 #endif /* MGNetAccount_h_h */

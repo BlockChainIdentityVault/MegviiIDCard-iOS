@@ -142,7 +142,7 @@
         }
     }else{
         dispatch_async(dispatch_get_main_queue(), ^{
-            self.cardInfoView.text = @"检测失败！";
+            self.cardInfoView.text = @"识别失败！";
         });
     }
 }
