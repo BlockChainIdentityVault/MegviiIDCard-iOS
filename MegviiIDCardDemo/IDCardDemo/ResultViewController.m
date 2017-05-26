@@ -150,7 +150,7 @@
 #pragma mark - ocr
 - (void)getCardInfo:(UIImage *)cardImage{
     
-    NSString *hostapi = MG_OCRDRIVER_API;
+    NSString *hostapi = MG_OCRID_API;
     NSData *imageData = UIImagePNGRepresentation(cardImage);
     
     NSDictionary *dic = @{@"api_key":MG_LICENSE_KEY,
