@@ -11,8 +11,8 @@
 
 #warning 请手动添加该出信息
 
-#define MG_LICENSE_API_KEY @"xxx"
-#define MG_LICENSE_API_SECRET @"xxx"
+#define MG_LICENSE_KEY @"xxx"
+#define MG_LICENSE_SECRET @"xxx"
 
 
 
