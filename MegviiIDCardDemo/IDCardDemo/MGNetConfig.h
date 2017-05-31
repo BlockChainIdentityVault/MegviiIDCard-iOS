@@ -15,7 +15,6 @@
 
 #define MG_OCRID_API        @"https://api.megvii.com/cardpp/v1/ocridcard"
 #define MG_OCRDRIVER_API    @"https://api.megvii.com/cardpp/v1/ocrdriverlicense"
-//#define MG_OCRID_API        @"https://api.megvii.com/cardpp/v1/ocridcard"
 
 
 
