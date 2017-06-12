@@ -48,7 +48,7 @@
                                          isChina:YES
                                           finish:^(bool License, NSError *error) {
                                               
-                                              NSLog(@"%@", error);
+                                              MGLog(@"%@", error);
                                               
                                               if (License) {
                                                   NSDate  *nowSDKDate = [self getLicenseDate];

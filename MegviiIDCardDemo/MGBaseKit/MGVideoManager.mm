@@ -388,13 +388,13 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
 
 #pragma mark - recorder delegate
 - (void)movieRecorder:(MGMovieRecorder *)recorder didFailWithError:(NSError *)error{
-    NSLog(@"Recorder error:%@", error);
+    MGLog(@"Recorder error:%@", error);
 }
 - (void)movieRecorderDidFinishPreparing:(MGMovieRecorder *)recorder{
-    NSLog(@"Recorder Preparing");
+    MGLog(@"Recorder Preparing");
 }
 -(void)movieRecorderDidFinishRecording:(MGMovieRecorder *)recorder{
-    NSLog(@"Recorder finish");
+    MGLog(@"Recorder finish");
 }
 
 

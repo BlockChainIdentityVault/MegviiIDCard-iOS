@@ -7,7 +7,7 @@
  */
 
 #import "MGMovieRecorder.h"
-
+#import "MGBaseDefine.h"
 #import <AVFoundation/AVAssetWriter.h>
 #import <AVFoundation/AVAssetWriterInput.h>
 
@@ -234,7 +234,7 @@
             case MovieRecorderStatusFailed:
                 // From the client's perspective the movie recorder can asynchronously transition to an error state as the result of an append.
                 // Because of this we are lenient when finishRecording is called and we are in an error state.
-                NSLog( @"Recording has failed, nothing to do" );
+                MGLog( @"Recording has failed, nothing to do" );
                 break;
             case MovieRecorderStatusRecording:
             {
@@ -352,7 +352,7 @@
                     }
                 }
             }else{
-                NSLog(@"%@ input not ready for more media data, dropping buffer", mediaType );
+                MGLog(@"%@ input not ready for more media data, dropping buffer", mediaType );
             }
             CFRelease(sampleBuffer);
         }
@@ -457,7 +457,7 @@
                                                      settings:(NSDictionary *)audioSettings
                                                         error:(NSError **)errorOut{
     if (nil == audioSettings ) {
-        NSLog(@"No audio settings provided, using default audio settings");
+        MGLog(@"No audio settings provided, using default audio settings");
         audioSettings = @{AVFormatIDKey : @(kAudioFormatMPEG4AAC)};
     }
     
@@ -507,7 +507,7 @@
                                             AVVideoExpectedSourceFrameRateKey : @(30),
                                             AVVideoMaxKeyFrameIntervalKey : @(60)};
     if (nil == videoSettings) {
-        NSLog(@"No video settings provided, using default video settings");
+        MGLog(@"No video settings provided, using default video settings");
         
         videoSettings = @{AVVideoCodecKey : AVVideoCodecH264,
                           AVVideoWidthKey : @(dimensions.width),
@@ -554,7 +554,7 @@
 - (void)recoderLogWith:(NSString *)format, ...{
     if (self.recorderLog)
     {
-        NSLog(@"%@", format);
+        MGLog(@"%@", format);
     }
 }
 

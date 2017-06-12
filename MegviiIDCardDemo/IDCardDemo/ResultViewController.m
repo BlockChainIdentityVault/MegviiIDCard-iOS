@@ -163,17 +163,17 @@
                }
                                 progress:^(NSProgress * _Nonnull uploadProgress) {}
                                  success:^(NSURLSessionDataTask *operation, id responseObject) {
-                                     NSLog(@"%@", responseObject);
+                                     MGLog(@"%@", responseObject);
                                      [self showCardInfo:responseObject];
                                  }
                                  failure:^(NSURLSessionDataTask *operation, NSError *error) {
-                                     NSLog(@"error :%@ \n %zi", error, [(NSHTTPURLResponse*)operation.response statusCode]);
+                                     MGLog(@"error :%@ \n %zi", error, [(NSHTTPURLResponse*)operation.response statusCode]);
  
                                      NSData *errorData = [[error userInfo] valueForKey:AFNetworkingOperationFailingURLResponseDataErrorKey];
                                      
                                      if (errorData) {
                                          NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:errorData options:NSJSONReadingMutableContainers error:nil];
-                                         NSLog(@"%@", jsonDic);
+                                         MGLog(@"%@", jsonDic);
                                          
                                          dispatch_async(dispatch_get_main_queue(), ^{
                                              self.cardInfoView.text = [jsonDic description];

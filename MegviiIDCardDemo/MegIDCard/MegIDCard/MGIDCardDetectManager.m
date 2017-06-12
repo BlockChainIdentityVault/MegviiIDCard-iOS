@@ -7,7 +7,6 @@
 //
 
 #import "MGIDCardDetectManager.h"
-
 #import "MGIDCard.h"
 
 @interface MGIDCardDetectManager ()
@@ -79,11 +78,11 @@
 
 - (BOOL)creatAndSetROI{
     if (CGSizeEqualToSize(CGSizeZero, self.videoSize) == YES){
-        NSLog(@"error MGIDCardDetectManager -> 请设置 videosize！");
+        MGLog(@"error MGIDCardDetectManager -> 请设置 videosize！");
         return NO;
     }
     if (MGIDCardScaleIsZero(self.IDCardScaleRect) == YES) {
-        NSLog(@"error MGIDCardDetectManager -> 请设置 IDCardScaleRect！");
+        MGLog(@"error MGIDCardDetectManager -> 请设置 IDCardScaleRect！");
         return NO;
     }
     CGSize videoSize = self.videoSize;
@@ -106,8 +105,8 @@
     CGRect noScaleRect = CGRectMake(angeleL, angeleT, angeleW, angeleH);
     CGRect scaleRect = [self expandFaceRect:noScaleRect imageSize:videoSize scale:(16.0/13.0-1)];
     
-//    NSLog(@"显示区域:%@", NSStringFromCGRect(noScaleRect));
-//    NSLog(@"裁剪区域:%@", NSStringFromCGRect(scaleRect));
+//    MGLog(@"显示区域:%@", NSStringFromCGRect(noScaleRect));
+//    MGLog(@"裁剪区域:%@", NSStringFromCGRect(scaleRect));
 
     self.cropRect = scaleRect;
     
