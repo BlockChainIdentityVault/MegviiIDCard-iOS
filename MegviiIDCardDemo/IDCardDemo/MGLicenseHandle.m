@@ -42,12 +42,12 @@
     
     [MGLicenseManager takeLicenseFromNetwokrUUID:uuid
                                        candidate:cardlicenSDK
-                                         sdkType:MG_SDK_TYPE_IDCARD
+                                         sdkType:MGSDKTypeIDCard
                                           apiKey:MG_LICENSE_KEY
                                        apiSecret:MG_LICENSE_SECRET
-                                         isChina:YES
+                                     apiDuration:MGAPIDurationMonth
+                                       URLString:MGLicenseURL_CN
                                           finish:^(bool License, NSError *error) {
-                                              
                                               MGLog(@"%@", error);
                                               
                                               if (License) {
@@ -62,6 +62,7 @@
                                                   }
                                               }
                                           }];
+
     
 }
 
